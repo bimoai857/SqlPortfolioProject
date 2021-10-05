@@ -3,6 +3,8 @@ Covid 19 Data Exploration
 Skills used: Joins, CTE's, Temp Tables, Windows Functions, Aggregate Functions, Creating Views, Converting Data Types
 */
 
+--Dataset Available at https://ourworldindata.org/covid-deaths 
+--Download the entire dataset from the beginning date
 Select *
 From PortfolioProject1..CovidDeaths
 Where continent is not null 
